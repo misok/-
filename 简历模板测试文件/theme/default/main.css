@@ -1,0 +1,88 @@
+body
+{
+	background-image: url('bg.png');
+}
+
+div.content
+{
+	padding-top: 45px;
+	padding-bottom: 45px;
+}
+
+.legend
+{
+	background-repeat: no-repeat;
+	background-size: 32px;
+	background-position: 12px 0;
+	padding-left: 52px;
+	height: 32px;
+	padding-top: 6px;
+	border: 0;
+	float: left;
+}
+.legend span
+{
+	background-image: url('bg.png');
+	display: inline-block;
+	padding-right: 10px;
+}
+.line
+{
+	height: 18px;
+	border-bottom: 1px #ccc solid;
+	box-shadow: 1px 1px rgba(255, 255, 255, 1);
+	margin-left: 80px;
+}
+
+#about .legend { background-image: url('icon_intro.png'); }
+#target .legend { background-image: url('icon_target.png'); }
+#edu .legend { background-image: url('icon_edu.png'); }
+#skill .legend { background-image: url('icon_skill.png'); }
+#honor .legend { background-image: url('icon_honor.png'); }
+#exp .legend { background-image: url('icon_exp.png'); }
+#contact .legend { background-image: url('icon_contact.png'); }
+
+#basic
+{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+#basic #avatar
+{
+	margin: auto;
+}
+#basic #avatar,
+#basic #avatar #photoAvatar,
+#basic #avatar #videoAvatar
+{
+	height: 150px;
+	width: 150px;
+}
+#basic #avatar #videoMask
+{
+	width: 152px;
+	height: 152px;
+	background-image: url("mask.png");
+}
+
+#basic #basic_info
+{
+	text-align: center;
+}
+
+#contact .tel
+{
+	background-color: #2ecc71;
+	background-image: url('icon_phone.png');
+}
+#contact .email
+{
+	background-color: #7ecef4;
+	background-image: url('icon_mail.png');
+}
+#contact .tel a,
+#contact .email a
+{
+	color: #fff;
+}

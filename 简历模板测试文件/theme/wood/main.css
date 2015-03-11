@@ -1,0 +1,182 @@
+body {
+    background-image: url('resume_bck.png');
+
+}
+
+#basic
+{
+    padding-top: 25px;
+    padding-bottom: 50px;
+    margin: 0;
+    background-size: cover;
+    float: left;
+    width: 100%;
+}
+
+#basic #avatar
+{
+    margin: auto;
+}
+#basic #avatar,
+#basic #avatar #photoAvatar,
+#basic #avatar #videoAvatar
+{
+    height: 150px;
+    width: 150px;
+}
+#basic #avatar #videoMask
+{
+    width: 152px;
+    height: 152px;
+    background-image: url("mask.png");
+}
+#basic #basic_info
+{
+    text-align: center;
+}
+
+#basic #basic_info .sex
+{
+    font-size: 14px;
+    display: inline;
+    margin: 0 10px 0 0;
+    padding: 0 10px 0 0;
+    border-radius: 0;
+    border-right: solid 1px #fff;
+    vertical-align: inherit;
+    color: #313131;
+}
+#basic #basic_info .sex.m,
+#basic #basic_info .sex.f
+{
+    background: none;
+}
+
+
+#basic #basic_info #age,
+#basic #basic_info #astro
+{
+    margin: 0 10px 0 0;
+    padding: 0 10px 0 0;
+    border-right: solid 1px #fff;
+}
+#about, #target, #edu, #skill, #honor, #exp, #contact
+{
+    margin: 20px 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+.legend span
+{
+
+    display: inline-block;
+    color: #ffffff;
+    padding-top: 6px;
+
+
+}
+
+.legend
+{
+    background-image: url('title_back.png');
+    background-repeat: no-repeat;
+    background-size: 130px;
+    background-position: 0 0;
+    padding-left: 20px;
+    height: 50px;
+    padding-right: 10px;
+    border: 0;
+    float: left;
+    margin-top: 30px;
+    margin-left: -12px;
+}
+div .content {
+    padding-top: 20px;
+}
+
+#edu #colleges li, #exp #experiences li{
+    background-image: url('bullet_notebook.png');
+    background-repeat: no-repeat;
+    background-position: 0px 0;
+    background-size: 45px;
+    padding-left: 60px;
+    padding-bottom: 30px;
+    margin-left: -8px;
+}
+#edu #colleges li:last-of-type, #exp #experiences li:last-of-type {
+    background-image: none;
+}
+#edu #colleges li .degree, #exp #experiences li .type {
+    float: left;
+    margin-right: 10px;
+    margin-left: 0px;
+}
+
+#honor #honors td.content {
+    padding-top: 1px;
+}
+
+#contact .tel
+{
+    background-color: #78be60;
+    background-image: url('icon_phone.png');
+}
+#contact .email
+{
+    background-color: #00b7ee;
+
+    background-image: url('icon_mail.png');
+}
+
+#contact .tel a {
+    color: #ffffff;
+
+}
+#contact .email a
+{
+    color: #fff;
+
+}
+#contact table td.content {
+    padding-top: 2px;
+}
+.rank_wood_5 {
+    background-image: url('icon_level5.png');
+    display: inline-block;
+    width: 100px;
+    height: 50px;
+    background-size: 90px;
+    background-repeat: no-repeat;
+}
+.rank_wood_2 {
+    background-image: url('icon_level2.png');
+    display: inline-block;
+    width: 100px;
+    height: 50px;
+    background-size: 90px;
+    background-repeat: no-repeat;
+}
+.rank_wood_3 {
+    background-image: url('icon_level3.png');
+    display: inline-block;
+    width: 100px;
+    height: 50px;
+    background-size: 90px;
+    background-repeat: no-repeat;
+}
+.rank_wood_1 {
+    background-image: url('icon_level1.png');
+    display: inline-block;
+    width: 100px;
+    height: 50px;
+    background-size: 90px;
+    background-repeat: no-repeat;
+}
+.rank_wood_4 {
+    background-image: url('icon_level4.png');
+    display: inline-block;
+    width: 100px;
+    height: 50px;
+    background-size: 90px;
+    background-repeat: no-repeat;
+}

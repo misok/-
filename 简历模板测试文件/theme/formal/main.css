@@ -1,0 +1,151 @@
+body
+{
+}
+
+.legend
+{
+	position: absolute;
+	width: auto;
+	height: 23px;
+	margin-top: 20px;
+	padding: 0 0 0 10px;
+	left: 15px;
+	border-left: solid 5px #ff5f3f;
+}
+.line
+{
+	display: none;
+}
+
+#about, #target, #edu, #skill, #honor, #exp, #contact
+{
+	border-top: solid 1px #f1f1ef;	
+}
+
+#about .legend,
+#target .legend,
+#edu .legend,
+#exp .legend,
+#skill .legend,
+#honor .legend,
+#contact .legend {
+	background: none;
+}
+
+#basic
+{
+	padding-top: 25px;
+	padding-bottom: 25px;
+	margin: 0;
+	background-size: cover;
+	float: left;
+	width: 100%;
+}
+
+#basic #avatar
+{
+	margin: auto;
+}
+#basic #avatar,
+#basic #avatar #photoAvatar,
+#basic #avatar #videoAvatar
+{
+	height: 150px;
+	width: 150px;
+}
+#basic #avatar #videoMask
+{
+	width: 152px;
+	height: 152px;
+	background-image: url("mask.png");
+}
+
+#basic #basic_info
+{
+	text-align: center;
+}
+
+#basic #basic_info .sex
+{
+	font-size: 14px;
+	display: inline;
+	margin: 0 10px 0 0;
+	padding: 0 10px 0 0;
+	border-radius: 0;
+	border-right: solid 1px #ccc;
+	vertical-align: inherit;
+	color: #313131;
+}
+#basic #basic_info .sex.m,
+#basic #basic_info .sex.f
+{
+	background: none;
+}
+
+#basic #basic_info #age,
+#basic #basic_info #astro
+{
+	margin: 0 10px 0 0;
+	padding: 0 10px 0 0;
+	border-right: solid 1px #ccc;
+}
+
+#about .tags li.p { background-color: #919195; }
+#about .tags li.h { background-color: #c9c9c9; }
+#about .tags li.d { background-color: #555555; }
+
+#edu #colleges li .degree,
+#exp #experiences li .type.sx,
+#exp #experiences li .type.xy
+{
+	background-color: #555555;
+}
+
+#skill #skills .rank li
+{
+	background-color: #ddd;
+	margin-right: 0;
+	border-radius: 0;
+	width: 18px;
+}
+
+#skill #skills .rank li:first-of-type {
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+}
+
+#skill #skills .rank li:last-of-type {
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+
+#contact .tel
+{
+    background-color: #fff;
+    background-image: url("icon_phone.png");
+    border: solid 1px #c9c9c9;
+}
+
+#contact .email {
+    background-color: #fff;
+    background-image: url("icon_mail.png");
+    border: solid 1px #c9c9c9;
+}
+
+#contact .tel a, #contact .email a {
+    color: #313131;
+}
+
+table td.dd
+{
+	color: #c9c9c9;
+}
+
+#contact table td.title
+{
+	color: #919195;
+}
+#contact table td.content
+{
+	color: #555555;	
+}

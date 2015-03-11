@@ -1,0 +1,223 @@
+body {
+    background-image: url('resume_bck.png');
+    color: #ffffff;
+}
+#basic {
+    margin-bottom: 100px;
+    margin-top: 20px;
+}
+#basic #avatar
+{
+    margin-left: 25px;
+}
+#basic #avatar,
+#basic #avatar #photoAvatar,
+#basic #avatar #videoAvatar
+{
+    float: left;
+    height: 165px;
+    width: 150px;
+}
+#basic #avatar #videoMask
+{
+    width: 160px;
+    height: 160px;
+    background-image: url("profile_mask.png");
+    background-repeat: no-repeat;
+    background-size: 160px;
+}
+.line1 span,
+.line2 span {
+    padding-right: 25px;
+}
+#basic #basic_info {
+    text-align: right;
+    /*margin-right: 25px;*/
+    float: right;
+    padding-top: 10px;
+}
+#basic #basic_info .line1 {
+    background-image: url('name_bkg.png');
+    background-repeat: no-repeat;
+    background-size: 205px;
+    width: 205px;
+    height: 80px;
+
+
+
+}
+#basic #basic_info .sex
+{
+    font-size: 14px;
+    display: inline;
+    margin: 0 10px 0 0;
+    padding: 0 10px 0 0;
+    border-radius: 0;
+    border-right: solid 1px #ccc;
+    vertical-align: inherit;
+    color: #313131;
+}
+#basic #basic_info .sex.m,
+#basic #basic_info .sex.f
+{
+    background: none;
+}
+
+#basic #basic_info #age,
+#basic #basic_info #astro
+{
+    margin: 0 10px 0 0;
+    padding: 0 10px 0 0;
+    border-right: solid 1px #ccc;
+}
+.container div:nth-child(even) .legend {
+    background-image: url('title_left.png');
+    background-repeat: no-repeat;
+    left: 25px;
+    background-size: 45px;
+    width: 45px;
+    height: 45px;
+}
+.container div:nth-child(odd) .legend {
+    background-image: url('title_right.png');
+    background-repeat: no-repeat;
+    background-size: 45px;
+    width: 45px;
+    height: 45px;
+    float: right;
+}
+.container div:nth-child(even) .legend span
+{
+    display: inline-block;
+    margin-left: 45px;
+    margin-top: 20px;
+    width: 200px;
+}
+#exp .legend span {
+
+    margin-left: -95px;
+
+}
+#about .line {
+    margin-left: 105px;
+}
+#exp .line {
+    margin-right: 150px;
+}
+.container div:nth-child(odd) .legend span
+{
+    display: inline-block;
+    margin-left: -60px;
+    width: 200px;
+    margin-top: 10px;
+}
+
+.container div:nth-child(even) .line {
+    height: 18px;
+    border-top: 1px purple solid;
+    margin-left: 120px;
+    margin-top: -15px;
+
+}
+.container div:nth-child(odd) .line {
+    height: 22px;
+    border-bottom: 1px green solid;
+
+    margin-right: 120px;
+
+}
+.container div:last-of-type .legend {
+    background-image: url('titile_contact.png');
+
+}
+#contact .tel
+{
+    background-color: #78be60;
+    background-image: url('icon_phone.png');
+}
+#contact .email
+{
+    background-color: #00b7ee;
+    background-image: url('icon_mail.png');
+}
+
+#contact .tel a {
+    color: #ffffff;
+}
+#contact .email a
+{
+    color: #fff;
+}
+#contact table td.content {
+    padding-top: 2px;
+}
+#edu #colleges li,
+#exp #experiences li
+{
+    background-image: url('timeline_top.png');
+    background-repeat: no-repeat;
+    background-position: 19px 0;
+    background-size: 18px;
+    padding-left: 52px;
+    padding-bottom: 30px;
+    height: 180px;
+    margin-bottom: -1px;
+}
+#edu #colleges li:last-of-type,
+#exp #experiences li:last-of-type
+{
+    background-image: url('timeline_bot.png');
+    background-size: 9px;
+    background-position: 24px 0;
+    padding-bottom: 0;
+    color: transparent;
+}
+#edu #colleges li .degree, #exp #experiences li .type {
+    float: left;
+    margin-right: 10px;
+    margin-left: 0px;
+}
+#edu #colleges li .degree {
+    background-color: purple;
+}
+.rank_geometry_1 {
+    background-image: url('skill_1.png');
+
+    background-size: 17px;
+    width: 17px;
+    height: 17px;
+}
+.rank_geometry_2 {
+    background-image: url('skill_2.png');
+
+    background-size: 17px;
+    width: 17px;
+    height: 17px;
+}
+.rank_geometry_3 {
+    background-image: url('skill_3.png');
+    background-size: 17px;
+    width: 17px;
+    height: 17px;
+}
+.rank_geometry_4 {
+    background-image: url('skill_4.png');
+    background-size: 17px;
+    width: 17px;
+    height: 17px;
+}
+.rank_geometry_5 {
+    background-image: url('skill_5.png');
+    background-size: 17px;
+    width: 17px;
+    height: 17px;
+}
+.rank_geometry {
+    padding: 0;
+
+    width: 150px;
+}
+.rank_geometry li{
+    display: inline-block;
+    margin-right: 5px;
+}

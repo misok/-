@@ -1,0 +1,99 @@
+@-webkit-keyframes animate-stripes {
+  from {
+    background-position: 0 0;
+  }
+
+  to {
+    background-position: 44px 0;
+  }
+}
+
+@-moz-keyframes animate-stripes {
+  from {
+    background-position: 0 0;
+  }
+
+  to {
+    background-position: 36px 0;
+  }
+}
+
+.ui-progress-bar {
+  position: relative;
+  height: 15px;
+  padding-right: 2px;
+}
+.ui-progress-bar.blue .ui-progress {
+  background-color: #339BB9!important;
+  border: 1px solid #287a91;
+}
+.ui-progress-bar.error .ui-progress {
+  background-color: #C43C35 !important;
+  border: 1px solid #9c302a;
+}
+.ui-progress-bar.warning .ui-progress {
+  background-color: #D9B31A!important;
+  border: 1px solid #ab8d15;
+}
+.ui-progress-bar.success .ui-progress {
+  background-color: #57A957!important;
+  border: 1px solid #458845;
+}
+.ui-progress-bar.transition .ui-progress {
+  -moz-transition: background-color 0.1s ease-in, border-color 0.5s ease-out, box-shadow 0.5s ease-out;
+  -webkit-transition: background-color 0.1s ease-in, border-color 0.5s ease-out, box-shadow 0.5s ease-out;
+  -o-transition: background-color 0.1s ease-in, border-color 0.5s ease-out, box-shadow 0.5s ease-out;
+  transition: background-color 0.1s ease-in, border-color 0.5s ease-out, box-shadow 0.5s ease-out;
+}
+.ui-progress-bar .ui-progress {
+  position: relative;
+  display: block;
+  overflow: hidden;
+  height: 16px;
+  -webkit-background-size: 44px 44px;
+  -moz-background-size: 36px 36px;
+  background-color: #74d04c;
+  background-image:
+         -webkit-gradient(linear, 0 0, 100% 100%,
+            color-stop(.25, rgba(255, 255, 255, .2)),
+            color-stop(.25, transparent), color-stop(.5, transparent),
+            color-stop(.5, rgba(255, 255, 255, .2)),
+            color-stop(.75, rgba(255, 255, 255, .2)),
+            color-stop(.75, transparent), to(transparent)
+         );
+  background: -moz-repeating-linear-gradient(top left -30deg, rgba(255, 255, 255, 0.17), rgba(255, 255, 255, 0.17) 15px, rgba(255, 255, 255, 0) 15px, rgba(255, 255, 255, 0) 30px), -moz-linear-gradient(rgba(255, 255, 255, 0.25) 0%, rgba(255, 255, 255, 0) 100%), #74d04c;
+  -moz-animation: animate-stripes 0.6s linear infinite;
+  -webkit-animation: animate-stripes 0.6s linear infinite;
+  -o-animation: animate-stripes 0.6s linear infinite;
+  -ms-animation: animate-stripes 0.6s linear infinite;
+  -khtml-animation: animate-stripes 0.6s linear infinite;
+  animation: animate-stripes 0.6s linear infinite;
+}
+.ui-progress-bar .ui-progress span.ui-label {
+  -moz-font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
+  -o-font-smoothing: antialiased;
+  -ms-font-smoothing: antialiased;
+  -khtml-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+  font-size: 13px;
+  position: absolute;
+  right: 0;
+  line-height: 23px;
+  padding-right: 12px;
+  color: rgba(0, 0, 0, 0.6);
+  text-shadow: rgba(255, 255, 255, 0.45) 0 1px 0px;
+  white-space: nowrap;
+}
+.ui-progress-bar .ui-progress span.ui-label b {
+  font-weight: bold;
+}
+
+.noanimate {
+  -moz-animation: none!important;
+  -webkit-animation: none!important;
+  -o-animation: none!important;
+  -ms-animation: none!important;
+  -khtml-animation: none!important;
+  animation: none!important;
+}

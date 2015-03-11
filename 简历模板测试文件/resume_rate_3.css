@@ -1,0 +1,61 @@
+#rate
+{
+	position: fixed;
+	background-color: rgba(0,0,0,0.5);
+	bottom: 0;
+	width: 100%;
+	padding: 5px 0;
+	z-index: 100;
+}
+#rate .score
+{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	float: left;
+	margin-left: 10px;
+}
+#rate .score li
+{
+	float: left;
+	width: 45px;
+	height: 45px;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	color: transparent;
+}
+#rate .score li.y
+{
+	background-image: url('./theme/default/star.png');
+}
+#rate .score li.n
+{
+	background-image: url('./theme/default/star-gray.png');
+}
+#rate a.rate
+{
+	display: block;
+	float: right;
+	background-color: #ff5f3f;
+	border-radius: 20px;
+	color: #fff;
+	padding: 5px 10px;
+	font-size: 20px;
+	margin-right: 10px;
+	margin-top: 4px;
+	text-decoration: none;
+}
+
+div#nomore
+{
+    position: fixed;
+    top: 20%;
+    left: 50%;
+    margin-left: -85px;
+ 	width: 170px;
+	height: 240px;
+	background-image: url('http://cdn.xiaomo.com/cv/img/rank_nomore.png');
+	background-position: 0 0;
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
